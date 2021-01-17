@@ -2,7 +2,7 @@
 require( "dotenv" ).config()
 
 module.exports = {
-  pathPrefix: `/Gatsby- MicroCMS-GithubPages_Diary`,  // package.json/ FYI: https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/
+  pathPrefix: `/Gatsby-MicroCMS-GithubPages_Diary`,  // package.json/ FYI: https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/
   siteMetadata: {
     title: `インターネット老人おぢさん`,
     description: `元CEO現役フリーランスエンジニア兼講師兼Youtuber「のむらやごろう」です。プログラミングの楽しさと副業・転職の話をスクール、スカウト、採用の3つの目線で解説します。STEM教育（水耕栽培など家庭農業IoT）とイクメン活動に奔走中`,
