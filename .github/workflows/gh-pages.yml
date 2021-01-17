@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
     - uses: actions/setup-node@v1
     - run: yarn
     - run: yarn build
@@ -16,7 +15,8 @@ jobs:
         GATSBY_API_KEY: ${{ secrets.GATSBY_API_KEY }}
         GATSBY_SERVICE_ID: ${{ secrets.GATSBY_SERVICE_ID }}
         GATSBY_ADSENSE: ${{ secrets.GATSBY_ADSENSE }}
+
     - uses: peaceiris/actions-gh-pages@v3
-      with:d
+      with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
