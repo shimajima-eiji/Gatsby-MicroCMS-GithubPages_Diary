@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://nomuraya-diary.netlify.app/sitemap.xml
+Host: https://nomuraya-diary.netlify.app
